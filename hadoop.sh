@@ -15,4 +15,4 @@ sudo yum install -y hadoop-yarn-nodemanager hadoop-hdfs-datanode hadoop-mapreduc
 sudo yum install -y hadoop-mapreduce-historyserver hadoop-yarn-proxyserver
 
 #all client
-sudo yum install -y hadoop-client
+sudo yum install -y hadoop-client hadoop-httpfs
