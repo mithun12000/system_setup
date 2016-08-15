@@ -4,3 +4,4 @@ sudo apt-get install php5-gd php5-odbc php5-imagick php5-sqlite php5-mcrypt php5
 sudo apt-get install mysql-server
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 composer config github-oauth.github.com  <token>
+composer global require "fxp/composer-asset-plugin:~1.0"
